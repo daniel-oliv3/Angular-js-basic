@@ -57,12 +57,14 @@
 
 ### 5 - Criando o nosso primeiro Component.
 
+### 6 - Exercício prático de criação de Components.
+- 1. Remover o componente do exercício anterior.
+- 2. Adicionar dois novos componentes (area1 e area2).
+- 3. Colocar esses dois componentes visíveis na aplicação.
 
 
-
-
-
-
+- Bónus. No componente area2, criar ficheiro de CSS com formatação
+- de um Div com cor amarela de background e padding de 20px.
 
 
 
