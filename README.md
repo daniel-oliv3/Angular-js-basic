@@ -16,6 +16,17 @@
 - link com as versões completa - https://pt.wikipedia.org/wiki/Angular_(framework)
 
 
+### O que é o Angular?
+- É um framework para criação de aplicações web, mobile e desktop.
+- É desenvolvida pela Google e é multiplataforma.
+- Recorre ao uso de HTML e JavaScript/TypeScript.
+- Está intimamente relacionada com a criação de SPAs, PWAs, ...
+- Permite criar aplicações mobile (Ionic, NativeScript, React Native, ...)...
+- Permite criar aplicações desktop multiplataforma.
+- Geração automática de código (CLI - command line interface).
+- Forte solução de visualização para aplicações com lógica no servidor.
+- É uma framework direcionada para a vertente do cliente.
+
 
 
 
