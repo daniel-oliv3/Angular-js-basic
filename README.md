@@ -47,7 +47,9 @@
 ### 3 - Criação do primeiro projeto de Angular.
 - cd Angular-js-basic
 - ng new primeiro_projeto
-- ng server
+
+### Rodar o projeto.
+- ng serve
 
 
 
