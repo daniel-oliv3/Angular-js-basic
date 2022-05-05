@@ -51,6 +51,8 @@
 ### Rodar o projeto.
 - ng serve
 
+### 4 - Breve análise sobre a forma como o Angular funciona.
+
 
 
 
