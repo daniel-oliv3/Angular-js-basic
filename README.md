@@ -52,7 +52,9 @@
 - ng serve
 
 ### 4 - Breve análise sobre a forma como o Angular funciona.
+- vscode-icons
 
+### 5 - Criando o nosso primeiro Component.
 
 
 
