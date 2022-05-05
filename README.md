@@ -38,6 +38,16 @@
 
 ### Instalações Essências.
 - Visual Studio Code - https://code.visualstudio.com/
+- NodeJs - https://nodejs.org/en/
+- AngularJs - https://angular.io/cli
+
+### Comandos para a criação do projeto.
+- npm install -g @angular/cli
+
+### 3 - Criação do primeiro projeto de Angular.
+- ng new my-dream-app
+- cd my-dream-app
+- ng server
 
 
 
