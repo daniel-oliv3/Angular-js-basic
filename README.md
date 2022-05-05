@@ -12,7 +12,7 @@
 - Angular 2 anunciado em setembro de 2014. Versão final em setembro de 2016.
 - Angular 4, Versão final, em março de 2017.
 - Está prevista a versão 5 para final de outubro de 2017.
-- etc.. atualmente na versão, Angular 12 foi lançado em 12 de maio de 2021.
+- etc.. atualmente na versão 12, O angular 12, foi lançado em 12 de maio de 2021.
 - link com as versões completa - https://pt.wikipedia.org/wiki/Angular_(framework)
 
 
@@ -28,6 +28,12 @@
 - É uma framework direcionada para a vertente do cliente.
 
 
+### O que vamos fazer?
+- Instalar o editor de código - Visual Studio Code.
+- Instalar o NodeJs para ter acesso ao NPM.
+- Instalar o Angular CLI.
+- Instalar globalmente a framework.
+- Criar o nosso primeiro projeto.
 
 
 
