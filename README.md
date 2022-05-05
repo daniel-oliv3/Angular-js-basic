@@ -36,6 +36,10 @@
 - Criar o nosso primeiro projeto.
 
 
+### Instalações Essências.
+- Visual Studio Code - https://code.visualstudio.com/
+
+
 
 
 
