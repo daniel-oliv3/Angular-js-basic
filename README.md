@@ -45,8 +45,8 @@
 - npm install -g @angular/cli
 
 ### 3 - Criação do primeiro projeto de Angular.
-- ng new my-dream-app
-- cd my-dream-app
+- cd Angular-js-basic
+- ng new primeiro_projeto
 - ng server
 
 
