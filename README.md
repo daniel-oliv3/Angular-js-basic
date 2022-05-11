@@ -80,6 +80,9 @@
 - ng generate component socio
 - ng generate component clube
 
+### 9 - Utilizar o Bootstrap no Angular.
+- Site do Bootstrap - https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
 
 
 
