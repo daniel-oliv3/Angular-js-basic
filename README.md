@@ -72,8 +72,10 @@
 - Ex webapp-003
 
 - ng generate component my_component
-- Outra forma
+## Outra forma
 - ng g c my_component
+
+### 8 - Nesting Components e Component Templates.
 
 
 
