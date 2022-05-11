@@ -71,8 +71,9 @@
 ### 7 - Criar Components com a CLI.
 - Ex webapp-003
 
-
-
+- ng generate component my_component
+- Outra forma
+- ng g c my_component
 
 
 
