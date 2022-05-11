@@ -76,15 +76,16 @@
 - ng g c my_component
 
 ### 8 - Nesting Components e Component Templates.
-- Ex webapp-004
+- Ex webapp-004 via cdn
 - ng generate component socio
 - ng generate component clube
 
 ### 9 - Utilizar o Bootstrap no Angular.
-- Ex webapp-005
+- Ex webapp-005 - por CDN
 - Site do Bootstrap - https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
-
+- Ex webapp-006
+- Por Downloads - https://getbootstrap.com/docs/5.1/getting-started/download/ 
 
 
 
