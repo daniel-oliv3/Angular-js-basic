@@ -76,6 +76,10 @@
 - ng g c my_component
 
 ### 8 - Nesting Components e Component Templates.
+- Ex webapp-004
+- ng generate component socio
+- ng generate component clube
+
 
 
 
