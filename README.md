@@ -84,8 +84,8 @@
 - Ex webapp-005 - por CDN
 - Site do Bootstrap - https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
-- Ex webapp-006
-- Por Downloads - https://getbootstrap.com/docs/5.1/getting-started/download/ 
+- Ex webapp-006 - Por Downloads
+- Downloads - https://getbootstrap.com/docs/5.1/getting-started/download/ 
 
 
 
