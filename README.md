@@ -92,6 +92,6 @@
 
 
 ### 10 - Utilização de CSS nos Components.
-- Ex webapp-008
-- Ex webapp-009
+- Ex webapp-008 + Bootstrap + css
+- Ex webapp-009 + Bootstrap + css
 
