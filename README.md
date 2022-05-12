@@ -97,4 +97,8 @@
 
 ### 11 - Uma atenção especial ao elemento Selector.
 - Ex webapp-010
+- selector: 'app-root', -> Cria um elemento novo no HTML
+- selector: '[app-root]', -> Cria um novo no atributo para adicionar ao HTML
+
 - Ex webapp-011
+- selector: '.app-root', -> Cria um componente que funciona como uma classe
