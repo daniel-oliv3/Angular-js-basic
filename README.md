@@ -102,3 +102,10 @@
 
 - Ex webapp-011
 - selector: '.app-root', -> Cria um componente que funciona como uma classe
+
+### 12 - Databinding String Interpolation.
+- Ex webapp-012
+
+
+
+
