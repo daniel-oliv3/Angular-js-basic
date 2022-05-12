@@ -88,6 +88,8 @@
 - Downloads - https://getbootstrap.com/docs/5.1/getting-started/download/ 
 
 - Ex webapp-007 - Por CLI Bootstrap
+- npm install --save bootstrap
+
 
 
 
