@@ -9,6 +9,7 @@ import { timeout } from 'rxjs';
 export class AppComponent {
   //title = 'webapp-013';
   inativo: boolean = true;
+  texto: string = 'Texto do placholder';
 
   constructor(){
     this.colocarAtivo();
@@ -17,6 +18,7 @@ export class AppComponent {
   colocarAtivo(){
     setTimeout(() => {
       this.inativo = false;
+      this.texto = "Texto alterado!";
     }, 5000);
   }
 }
