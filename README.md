@@ -118,6 +118,8 @@
 - Site - https://www.w3schools.com/tags/ref_eventattributes.asp
 
 ### 15 - Exercício prático de Databinding.
+- Criar 3 botões, 1* atia e inativa, 2* altera o texto dos botões para "..."
+- 3* colocar o texto original nos botões.
 - Ex webapp-015
 
 
