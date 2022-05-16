@@ -3,10 +3,14 @@
 
     <h1>14 - Databinding Event binding</h1>
 
-    <button class="btn btn-primary" [disabled]="inativo"> Executar </button>
 
 
-    <input type="text" [placeholder]="texto">
+    <button class="btn btn-primary" (click)="onClick()">Clicar</button>
+    <button class="btn btn-primary" [disabled]="inativo">Outro botão</button>
+    <p>{{ texto }}</p>
+
+    <p>{{ inativo }}</p>
+    <hr>
 
   </div>
 </div>

@@ -113,6 +113,10 @@
 ### 14 - Databinding Event binding.
 - Ex webapp-014
 
+### HTML Events List
+- Global Event Attributes
+- Site - https://www.w3schools.com/tags/ref_eventattributes.asp
+
 
 
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { timeout } from 'rxjs';
+
 
 @Component({
   selector: 'app-root',
@@ -7,18 +7,13 @@ import { timeout } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //title = 'webapp-014';
-  inativo: boolean = true;
-  texto: string = 'Texto do placholder';
+  texto: string = 'Texto inicial';
 
-  constructor(){
-    this.colocarAtivo();
-  }
+  inativo: boolean = false;
 
-  colocarAtivo(){
-    setTimeout(() => {
-      this.inativo = false;
-      this.texto = "Texto alterado!";
-    }, 5000);
+  //função para alterar o texto
+  onClick(){
+    this.texto = 'Novo texto depois do click.';
+    this.inativo = true;
   }
 }
