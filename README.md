@@ -56,6 +56,7 @@
 - vscode-icons
 
 ### 5 - Criando o nosso primeiro Component.
+- Ex webapp-002
 
 ### 6 - Exercício prático de criação de Components.
 - 1. Remover o componente do exercício anterior.
@@ -106,10 +107,8 @@
 ### 12 - Databinding String Interpolation.
 - Ex webapp-012
 
-
 ### 13 - Databinding Property binding.
 - Ex webapp-013
-
 
 ### 14 - Databinding Event binding.
 - Ex webapp-014
