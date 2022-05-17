@@ -28,4 +28,8 @@ export class AppComponent {
   }
 
 
+  executar2(event: Event){
+    this.texto = (<HTMLInputElement>event.target).value;
+  }
+
 }
