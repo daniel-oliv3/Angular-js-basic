@@ -2,28 +2,19 @@
   <div class="panel panel-default espaco">
 
     <h1>16 - Event binding e o $event</h1>
-
-
-
     <div class="row">
-      <!--Comando 1-->
-      <div class="col-sm-4 text-center">
-        <p>Ativar e Inativar os outros comandos</p>
-        <button class="btn btn-primary" (click)="cmd1_Click()">{{ texto_cmd1 }}</button>
-      </div>
-      <!--Comando 2-->
-      <div class="col-sm-4 text-center">
-        <p>Altera o texto dos botões para "..."</p>
-        <button class="btn btn-primary" [disabled]="cmd2_inativo" (click)="cmd2_Click()">{{ texto_cmd2 }}</button>
-      </div>
-      <!--Comando 3-->
-      <div class="col-sm-4 text-center">
-        <p>Colocar o texto original nos botões</p>
-        <button class="btn btn-primary" [disabled]="cmd2_inativo" (click)="cmd3_Click()">{{ texto_cmd3 }}</button>
-      </div>
+
+
+
+      <button class="btn btn-primary" (click)="btn_Click($event)">Executar</button>
+
+      <input type="text" name="text_texto" id="text_texto" (input)="teclaPressionada($event)" placeholder="Digite aqui">
+
+      <p>{{ valor }}</p>
+
+
+
+
     </div>
-
-
-
   </div>
 </div>

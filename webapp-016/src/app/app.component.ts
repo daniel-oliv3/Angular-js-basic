@@ -7,41 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //Texto dos comandos.
-  texto_cmd1: string = 'Ativar/Inativar';
-  texto_cmd2: string = 'Alterar';
-  texto_cmd3: string = 'Restaurar';
+  //...
+  valor: string = 'Texto inicial';
 
+  btn_Click(event: any){
+    this.valor = 'Novo texto...';
 
-  //Ativo e inativo.
-  cmd2_inativo: boolean = false;
-  cmd3_inativo: boolean = false;
-
-  //Evento.
-  cmd1_Click(){
-    //Ativa e inativa os outrs comandos.
-    if(!this.cmd2_inativo){
-      this.cmd2_inativo = true;
-      this.cmd3_inativo = true;
-    }else {
-      this.cmd2_inativo = false;
-      this.cmd3_inativo = false;
-    }
+    console.log(event);
   }
 
-  //Altera o texto dos botões para "...".
-  cmd2_Click(){
-    this.texto_cmd1 = '...';
-    this.texto_cmd2 = '...';
-    this.texto_cmd3 = '...';
+  teclaPressionada(event: any){
+    //console.log(event);
+    this.valor = event.target.value;
   }
-
-
-  //Colocar o texto original nos botões.
-  cmd3_Click(){
-    this.texto_cmd1 = 'Ativar/Inativar';
-    this.texto_cmd2 = 'Alterar';
-    this.texto_cmd3 = 'Restaurar';
-  }
-
 }
