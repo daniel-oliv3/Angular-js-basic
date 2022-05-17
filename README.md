@@ -126,11 +126,12 @@
 - Ex webapp-016
 
 ### 17 - Event binding e o $event - parte 2.
-- Ex webapp-017
+- Ex webapp-017 *
 
 ### 18 - Databinding nos dois sentidos.
 - Ex webapp-018
 
-
+### 19 - Introdução às Directives.
+- Ex webapp-019
 
 
