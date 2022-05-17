@@ -122,6 +122,8 @@
 - 3* colocar o texto original nos botões.
 - Ex webapp-015
 
+### 16 - Event binding e o $event.
+- Ex webapp-016
 
 
 
