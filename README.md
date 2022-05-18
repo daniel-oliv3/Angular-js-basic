@@ -157,6 +157,7 @@
 ### 23 - Structure Directive ngFor.
 - Ex webapp-024
 - Ex webapp-025
+- Ex webapp-026
 
 
 
