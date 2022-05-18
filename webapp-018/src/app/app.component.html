@@ -2,16 +2,17 @@
   <div class="panel panel-default espaco">
 
     <h1>18 - Databinding nos dois sentidos</h1>
-    <div class="row">
+
 
 
       <!--<input type="text" placeholder="Digitar aqui" class="form-control" (input)="text_Changed($event)">-->
-      <input type="text" placeholder="Digitaro texto aqui" class="form-control" [(ngModel)]="valor">
-      <p>{{ valor }}</p>
-      <button class="btn btn-primary">Clicar</button>
+      <input type="text" placeholder="Digite seu texto aqui" class="form-control" [(ngModel)]="valor"><br/>
+      
+      <p>{{ valor }}</p><br/>
+
+      <button class="btn btn-primary" (click)="alterarTexto()">Clicar</button>
 
 
 
-    </div>
   </div>
 </div>

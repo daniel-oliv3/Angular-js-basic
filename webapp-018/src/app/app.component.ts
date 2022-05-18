@@ -11,9 +11,17 @@ export class AppComponent {
   valor: string = "";
 
 //.....
-  text_Changed(event: any){
+/*  text_Changed(event: any){
     this.valor = event.target.value;
+  }*/
+
+//.....
+  alterarTexto(){
+    this.valor = 'valor alterado com o botão!';
   }
+
+
+
 
 
 }
