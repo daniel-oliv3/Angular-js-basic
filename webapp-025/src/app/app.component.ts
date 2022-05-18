@@ -12,7 +12,7 @@ export class AppComponent {
 
   //...
   lista_nomes: string[] = [
-    'João', 'Carlos', 'Ana'
+    'Daniel', 'Priscila', 'Jojob'
   ];
 
   }
