@@ -1,0 +1,21 @@
+.espaco{
+  margin: 20px;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.panel {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+.ativo {
+  opacity: 1;
+  font-weight: bold;
+}
+
+
+.inativo {
+  opacity: .2;
+}

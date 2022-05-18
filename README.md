@@ -154,8 +154,8 @@
 ### 22 - Attribute Directive ngClass.
 - Ex webapp-023
 
-
-
+### 23 - Structure Directive ngFor.
+- Ex webapp-024
 
 
 
