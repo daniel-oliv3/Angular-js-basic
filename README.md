@@ -151,3 +151,22 @@
 - Ex webapp-021
 - Ex webapp-022
 
+### 22 - Attribute Directive ngClass.
+- Ex webapp-023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
