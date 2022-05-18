@@ -11,15 +11,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   //...
 
-  apresentar: boolean = false;
 
-  btn_Click(){
-    if(this.apresentar){
-      this.apresentar = false;
-    }else{
-      this.apresentar = true;
-    }
-  }
 
 
   }

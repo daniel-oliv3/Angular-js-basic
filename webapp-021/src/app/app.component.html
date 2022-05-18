@@ -1,25 +1,15 @@
 <div class="container">
   <div class="panel panel-default espaco">
 
-    <h1>20 - Directive ngIf com uma condição Else</h1>
-
-    <div class="row">
-
-      <p *ngIf="apresentar; else outroParagrafo" >Este e o parágrafo um.</p>
-
-      <ng-template #outroParagrafo>
-        <p>Este e o parágrafo dois.</p>
-      </ng-template>
-
-
-      <!--<p *ngIf="!apresentar" >Este e o parágrafo dois.</p>-->
-      <b (click)="btn_Click()" class="btn btn-primary">Downloads</b>
-
-
-
-
-
+    <div>
+      <p>Texto da caixa 1</p>
     </div>
 
+    <div>
+      <p>Texto da caixa 2</p>
+    </div>
+
+    <button class="btn btn-primary">Alterar cor 1</button>
+    <button class="btn btn-primary">Alterar cor 2</button>
   </div>
 </div>
