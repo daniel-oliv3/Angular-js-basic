@@ -2,11 +2,9 @@
   <div class="panel panel-default espaco">
 
 
-    <div class="alert alert-success" *ngFor="let nome of lista_nomes">
-      <p> {{ nome }} </p>
-    </div>
 
 
+  <p *ngFor="let nome of lista_nomes; let indice = index">{{ indice }}</p>
 
 
 
