@@ -132,6 +132,12 @@
 - Ex webapp-018
 
 ### 19 - Introdução às Directives.
+## O que é uma Directive?
+- São instruções inseridas dentro da DOM.
+- Components são casos específicos de uma Directive.
+- Podemos usar Directives existentes ou construir as nossas.
+- Uma Directive é uma classe com decorator @Directive.
+
 - Ex webapp-019
 
 ### 20 - Directive ngIf com uma condição Else.
