@@ -9,20 +9,29 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
+
+
+  estado: boolean = true;
+
   //...
-  valor: boolean = false;
-  cor: string = 'green';
+  alterarEstilo(){
+    return {
+      //'background-color': 'blue',
+      //'color': 'white'
 
-
-  btn_Click(){
-    if(this.valor){
-      this.cor = 'blue';
-    }else{
-      this.cor = 'red';
-    }
+      backgroundColor: 'blue',
+      color: 'white'
+    };
   }
 
 
+  Alternar(){
+    if(this.estado){
+      this.estado = false;
+    }else{
+      this.estado = true;
+    }
+  }
 
   }
 

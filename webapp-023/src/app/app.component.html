@@ -1,10 +1,26 @@
 <div class="container">
   <div class="panel panel-default espaco">
 
-    <div [ngStyle]="{backgroundColor: cor}">
-      <p>Texto da caixa 1</p>
-    </div>
+    <!-- utilização da ditective ngStyle -->
+    <p [ngStyle]="{'background-color': 'red', 'color': 'white'}">Texto de um parágrafo</p>
 
-    <button (click)="btn_Click()" class="btn btn-primary">Alterar cor 1</button>
+    <!-- utilização da ditective ngStyle com camelcase -->
+    <p [ngStyle]="{backgroundColor: 'green', color: 'white'}">Texto de um parágrafo</p>
+
+
+    <!-- utilização da ditective ngStyle com camelcase -->
+    <p [ngStyle]="alterarEstilo()">Texto de um parágrafo</p>
+
+
+    <!-- utilização da ditective ngClass -->
+    <p [ngClass]="{ativo: estado === true }">Texto do novo parágrafo</p>
+    <button (click)="Alternar()">Alternar</button>
+
+
+
+
+
+
+
   </div>
 </div>
