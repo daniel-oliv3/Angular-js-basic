@@ -159,6 +159,9 @@
 - Ex webapp-025
 - Ex webapp-026
 
+### 24 - Exercício micro loja parte 1.
+- Ex webapp-027
+
 
 
 
