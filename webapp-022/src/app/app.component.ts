@@ -10,16 +10,16 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   //...
+  valor: boolean = false;
   cor: string = 'green';
-  corTexto: string = 'green';
-
-  alterarCor(){
-    this.cor = 'blue';
-  }
 
 
-  alterarCorTexto(){
-    this.corTexto = 'red';
+  btn_Click(){
+    if(this.valor){
+      this.cor = 'blue';
+    }else{
+      this.cor = 'red';
+    }
   }
 
 
