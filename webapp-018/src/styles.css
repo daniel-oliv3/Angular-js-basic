@@ -1,6 +1,11 @@
 /* Yonu can add global styles to this file, and also import other style files */
 button{
   margin: 5px;
+  margin-top: 15px;
+}
+
+input {
+  margin-left: 15px;
 }
 
 .row {
@@ -9,4 +14,5 @@ button{
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 10px;
+  padding-left: 15px;
 }

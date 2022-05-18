@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   //...
-  
+  valor: string = "";
+
+//.....
+  text_Changed(event: any){
+    this.valor = event.target.value;
+  }
+
+
 }

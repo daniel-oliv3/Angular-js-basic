@@ -5,8 +5,10 @@
     <div class="row">
 
 
-
-
+      <!--<input type="text" placeholder="Digitar aqui" class="form-control" (input)="text_Changed($event)">-->
+      <input type="text" placeholder="Digitaro texto aqui" class="form-control" [(ngModel)]="valor">
+      <p>{{ valor }}</p>
+      <button class="btn btn-primary">Clicar</button>
 
 
 
