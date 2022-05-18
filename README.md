@@ -138,6 +138,10 @@
 - Podemos usar Directives existentes ou construir as nossas.
 - Uma Directive é uma classe com decorator @Directive.
 
+## Existem outros dois tipos de Directives:
+- Structural Directives - Alteram o layout da DOM, adicionando, removendo ou substituindo elementos.
+- Attribute Directives - Alteram o aspecto e comportamento de elementos existente.
+
 - Ex webapp-019
 
 ### 20 - Directive ngIf com uma condição Else.
