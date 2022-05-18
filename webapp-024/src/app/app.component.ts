@@ -10,28 +10,10 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-
-  estado: boolean = true;
-
   //...
-  alterarEstilo(){
-    return {
-      //'background-color': 'blue',
-      //'color': 'white'
-
-      backgroundColor: 'blue',
-      color: 'white'
-    };
-  }
-
-
-  Alternar(){
-    if(this.estado){
-      this.estado = false;
-    }else{
-      this.estado = true;
-    }
-  }
+  lista_nomes: string[] = [
+    'João', 'Carlos', 'Ana'
+  ];
 
   }
 

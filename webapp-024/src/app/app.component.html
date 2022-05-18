@@ -1,22 +1,7 @@
 <div class="container">
   <div class="panel panel-default espaco">
 
-    <!-- utilização da ditective ngStyle -->
-    <p [ngStyle]="{'background-color': 'red', 'color': 'white'}">Texto de um parágrafo</p>
-
-    <!-- utilização da ditective ngStyle com camelcase -->
-    <p [ngStyle]="{backgroundColor: 'green', color: 'white'}">Texto de um parágrafo</p>
-
-
-    <!-- utilização da ditective ngStyle com camelcase -->
-    <p [ngStyle]="alterarEstilo()">Texto de um parágrafo</p>
-
-
-    <!-- utilização da ditective ngClass -->
-    <p [ngClass]="{ativo: estado === true , inativo: estado === false}">Texto do novo parágrafo</p>
-    <button (click)="Alternar()">Alternar</button>
-
-    <button (click)="Alternar()">{{ estado }}</button>
+    <p> {{ lista_nomes }} </p>
 
 
 
