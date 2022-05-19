@@ -12,8 +12,8 @@
 
     <!--Botoes-->
     <div class="col-sm-6 col-xs-12 text-right">
-      <button class="btn btn-primary btn-size"> Loja </button>
-      <button class="btn btn-primary btn-size"> Estoque </button>
+      <button (click)="MostrarLoja()" class="btn btn-primary btn-size"> Loja </button>
+      <button (click)="MostrarStock()" class="btn btn-primary btn-size"> Estoque </button>
     </div>
   </div>
 
@@ -21,7 +21,7 @@
 
 
 
-  <app-loja></app-loja>
+  <app-loja *ngIf="loja_visivel"></app-loja>
 
-  <app-stock></app-stock>
+  <app-stock *ngIf="stock_visivel"></app-stock>
 </div>
