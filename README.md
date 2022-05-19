@@ -175,7 +175,7 @@
 ### 25 - Exercício micro loja parte 2.
 - Ex webapp-027
 
-- Components
+- Criação de um Components
 - ng g c loja
 
 

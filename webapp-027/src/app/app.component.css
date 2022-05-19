@@ -1,0 +1,10 @@
+/*Principal*/
+.espaco {
+  margin: 20px;
+  padding: 20px;
+}
+
+.panel {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
