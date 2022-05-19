@@ -160,11 +160,20 @@
 - Ex webapp-026
 
 ### 24 - Exercício micro loja parte 1.
-- Ex webapp-027
+- Criação do projeto.
+- ng new webapp-027
+
+- Roda o projeto.
+- ng serve
+
+- Instalando o Bootstrap no projeto.
 - npm install --save bootstrap
+
 - acrescentar trecho de codigo no arquivo angular.json abaixo de styles.
 - "../node_modules/bootstrap/dist/css/bootstrap.min.css",
 
+### 25 - Exercício micro loja parte 2.
+- Ex webapp-027
 
 
 
