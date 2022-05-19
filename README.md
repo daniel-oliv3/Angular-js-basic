@@ -160,10 +160,11 @@
 - Ex webapp-026
 
 ### 24 - Exercício micro loja parte 1.
+- Ex webapp-027
 - npm install --save bootstrap
 - acrescentar trecho de codigo no arquivo angular.json abaixo de styles.
-- "../node_modules/bootstrap/disp/css/bootstrap.min.css",
-- Ex webapp-027
+- "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+
 
 
 
