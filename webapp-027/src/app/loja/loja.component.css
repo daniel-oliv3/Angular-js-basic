@@ -1,0 +1,18 @@
+/* Loja */
+.espaco{
+  margin: 20px;
+  padding: 20px;
+}
+
+.panel {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.btn-size {
+  width: 150px;
+}

@@ -1,0 +1,27 @@
+<!--Principal-->
+<div class="container panel panel-default espaco">
+
+
+  <!-- Navegação -->
+  <div class="row">
+    <!--Logo-->
+    <div class="col-sm-6 col-xs-12">
+
+      <img src="../assets/logo1.png" class="logo">
+    </div>
+
+    <!--Botoes-->
+    <div class="col-sm-6 col-xs-12 text-right">
+      <button (click)="MostrarLoja()" class="btn btn-primary btn-size"> Loja </button>
+      <button (click)="MostrarStock()" class="btn btn-primary btn-size"> Estoque </button>
+    </div>
+  </div>
+
+
+
+
+
+  <app-loja *ngIf="loja_visivel"></app-loja>
+
+  <app-stock *ngIf="stock_visivel"></app-stock>
+</div>
