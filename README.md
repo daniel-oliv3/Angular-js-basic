@@ -184,6 +184,10 @@
 ### 27 - Exercício micro loja parte 4.
 - Ex webapp-027
 
+### 28 - Exercício micro loja parte 5 (final).
+- Ex webapp-027
+
+
 
 
 
