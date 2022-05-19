@@ -181,6 +181,8 @@
 - ng g c loja
 - ng g c stock
 
+### 27 - Exercício micro loja parte 4.
+- Ex webapp-027
 
 
 
