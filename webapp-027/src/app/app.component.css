@@ -8,3 +8,21 @@
   border: 1px solid gray;
   border-radius: 5px;
 }
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.btn-size {
+  width: 150px;
+}
+
+
+
+
+

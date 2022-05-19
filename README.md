@@ -90,6 +90,8 @@
 
 - Ex webapp-007 - Por CLI Bootstrap
 - npm install --save bootstrap
+- acrescentar trecho de codigo no arquivo angular.json abaixo de styles.
+- "../node_modules/bootstrap/dist/css/bootstrap.min.css",
 
 
 ### 10 - Utilização de CSS nos Components.
@@ -177,6 +179,7 @@
 
 - Criação de um Components
 - ng g c loja
+- ng g c stock
 
 
 
