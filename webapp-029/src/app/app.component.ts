@@ -10,9 +10,10 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
- 
+  novo_nome: string = 'João Ribeiro';
 
-  }
+
+}
 
 
 

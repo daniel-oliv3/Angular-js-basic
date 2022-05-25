@@ -188,7 +188,7 @@
 - Ex webapp-027 ...
 
 ### 29 - Exercício de adição de um Model.
-- Ex webapp-028
+- Ex webapp-028 ...
 
 ### 30 - Dados de parent component para child component @Input.
 - Ex webapp-029
