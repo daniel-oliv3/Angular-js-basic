@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { cl_operacao } from './operacao.model';
+
 
 
 @Component({
@@ -11,7 +13,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   //...
+  operacao: cl_operacao;
 
+  CriarOperacao(){
+    this.operacao = new cl_operacao();
+
+
+
+  }
 
   }
 
