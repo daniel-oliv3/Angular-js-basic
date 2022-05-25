@@ -185,7 +185,10 @@
 - Ex webapp-027
 
 ### 28 - Exercício micro loja parte 5 (final).
-- Ex webapp-027
+- Ex webapp-027 ...
+
+### 29 - Exercício de adição de um Model.
+- Ex webapp-028
 
 
 
