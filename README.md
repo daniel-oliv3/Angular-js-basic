@@ -191,7 +191,10 @@
 - Ex webapp-028 ...
 
 ### 30 - Dados de parent component para child component @Input.
-- Ex webapp-029
+- Ex webapp-029 ...
+
+### 31 - Usando um Alias no @Input.
+- Ex webapp-030
 
 
 
