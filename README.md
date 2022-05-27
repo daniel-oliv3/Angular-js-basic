@@ -196,8 +196,8 @@
 ### 31 - Usando um Alias no @Input.
 - Ex webapp-030
 
-
-
+### 32 - Custom Events Binding.
+- Ex webapp-031
 
 
 
