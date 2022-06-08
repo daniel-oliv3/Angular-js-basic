@@ -202,6 +202,8 @@
 - ng g c meu --spec false
 
 
+### 33 - Custom Events Binding comunicando valores.
+- Ex webapp-032
 
 
 
