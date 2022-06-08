@@ -14,6 +14,7 @@
 - Está prevista a versão 5 para final de outubro de 2017.
 - etc.. atualmente na versão 12, O angular 12, foi lançado em 12 de maio de 2021.
 - link com as versões completa - https://pt.wikipedia.org/wiki/Angular_(framework)
+- link2 - https://pt.wikipedia.org/wiki/AngularJS
 
 
 ### O que é o Angular?
@@ -198,6 +199,8 @@
 
 ### 32 - Custom Events Binding.
 - Ex webapp-031
+- ng g c meu --spec false
+
 
 
 

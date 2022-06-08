@@ -11,7 +11,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   //...
-  valor: string = 'Sapup3';
+  //valor: string = 'Sapup3';
+
+
+  info: string = 'Tudo calmo.';
+
+  Escuta(){
+    this.info = 'Nome alterado...';
+  }
+
+
 
   }
 
