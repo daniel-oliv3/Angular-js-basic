@@ -10,7 +10,6 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-  //...
   //valor: string = 'Sapup3';
 
 
