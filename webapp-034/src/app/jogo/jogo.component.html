@@ -6,8 +6,8 @@
 
   <div class="form-inline form-group">
     <label><h3>{{str_operacao}}</h3></label>
-    <input type="number">
-    <button class="btn btn-primary">Ok</button>
+    <input type="number" (input)="DefinirResultado($event)">
+    <button class="btn btn-primary" (click)="AvaliarResultadoInserido()">Ok</button>
   </div>
 </div>
 

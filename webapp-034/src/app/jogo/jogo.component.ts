@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-jogo',
@@ -17,12 +17,18 @@ export class JogoComponent implements OnInit {
   str_operacao: string = '';
   valor_inserido: number = 0;
 
-  /* */
+
+/* Event emitter para informar o app.component */
+@Output() resposta_final = new EventEmitter;
+
+
+
+/* ************************************************************ */
   constructor() {
     this.CriaNovaOperacao();
   }
 
-  /* Metodos */
+/* Metodos */
   CriaNovaOperacao(){
     //cria aleatoriamente uma adição
     this.valor1 = Math.floor(Math.random()*10);
@@ -33,8 +39,24 @@ export class JogoComponent implements OnInit {
 
 
 
+/* *************************************************************** */
+  DefinirResultado(Evento: any){
+    //atualiza o valor inserido dentro do input
+    this.valor_inserido = Evento.valor.target.value;
 
 
+  }
+
+
+/* *************************************************************** */
+AvaliarResultadoInserido(){
+  //avalia se a operação foi solucionada ou não
+  if(this.valor_inserido == this.resultado){
+    this.resposta_final.emit(true);
+  }else{
+    this.resposta_final.emit(false);
+  }
+}
 
 
   ngOnInit(): void {

@@ -5,10 +5,10 @@
     <h1>35 - Jogo matemático com Angular</h1>
     <hr>
 
-    <app-jogo></app-jogo>
+    <app-jogo (resposta_final)="AvaliarResposta()"></app-jogo>
 
     <div class="text-center">
-      <h2>Resposta</h2>
+      <h2>{{resposta}}</h2>
     </div>
 
   </div>
