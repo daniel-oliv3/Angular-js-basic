@@ -15,8 +15,8 @@ export class AppComponent {
 
   info: string = 'Tudo calmo.';
 
-  Escuta(){
-    this.info = 'Nome alterado...';
+  Escuta(valor: string){
+    this.info = 'O nome foi alterado para ' + valor;
   }
 
 

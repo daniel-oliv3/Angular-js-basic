@@ -10,13 +10,13 @@ export class MeuComponent {
 
   nome: string = "Sapup3";
 
-  @Output() evento = new EventEmitter();
+  @Output() evento = new EventEmitter<string>();
 
 
 
   AnterarNome(){
     this.nome = "Daniel Oliveira";
-    this.evento.emit();
+    this.evento.emit(this.nome);
   }
 
 
