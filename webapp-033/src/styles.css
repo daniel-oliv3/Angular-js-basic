@@ -10,3 +10,36 @@ button{
   padding-bottom: 30px;
   border-radius: 10px;
 }
+
+html{
+  background-color: #4F4F4F;
+  color: white;
+}
+
+.container{
+  background-color: #4F4F4F;
+  color: white;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+}
+
+/* Botão OK */
+button {
+  background-color: rgb(23, 49, 247);
+  width: 60px;
+  height: 35px;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+/* Resposta */
+.text-center h2 {
+  text-align: center;
+}
