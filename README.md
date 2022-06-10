@@ -211,6 +211,8 @@
 - ng g c jogo --spec false
 
 
+### 35 - Jogo matemático com Angular - parte 2/2.
+- Ex webapp-034 - completo
 
 
 

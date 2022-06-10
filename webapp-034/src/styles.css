@@ -1,0 +1,46 @@
+/* Yonu can add global styles to this file, and also import other style files */
+
+.row {
+  border: 1px solid grey;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+html{
+  background-color: #4F4F4F;
+  color: white;
+}
+
+.container{
+  background-color: #4F4F4F;
+  color: white;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  width: 20%;
+  height: 30px;
+  font-size: 15px;
+}
+
+/* Botão OK */
+button {
+  background-color: rgb(23, 49, 247);
+  width: 60px;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 8px;
+}
+
+
+/* Resposta */
+.text-center h2 {
+  text-align: center;
+}
+
+
